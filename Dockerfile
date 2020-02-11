@@ -7,3 +7,4 @@ RUN npm install\
     npm run client-install
 ENTRYPOINT npm run
 CMD dev
+USER jenkins
