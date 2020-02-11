@@ -5,4 +5,4 @@ COPY . /usr/src/app
 WORKDIR /usr/src/app
 RUN npm install\
     && npm run client-install
-RUN npm run dev
+RUN npm run start-dev
