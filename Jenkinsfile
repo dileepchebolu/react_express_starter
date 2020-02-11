@@ -18,7 +18,7 @@ pipeline {
         stage ('Launching the container') {
             steps {
                 sh '''
-                    docker run -p 8081:3000 assessment:latest 
+                    docker run -d -p 8081:3000 assessment:latest 
                     ''' 
             }
         }
