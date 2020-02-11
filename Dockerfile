@@ -5,5 +5,4 @@ COPY . /usr/src/app
 WORKDIR /usr/src/app
 RUN npm install\
     && npm run client-install
-ENTRYPOINT npm run
-CMD dev
+RUN npm run dev
