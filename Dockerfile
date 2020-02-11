@@ -4,7 +4,7 @@ LABEL application="reactandexpress"
 COPY . /usr/src/app
 WORKDIR /usr/src/app
 RUN npm install\
-    npm run client-install
+    && npm run client-install
 ENTRYPOINT npm run
 CMD dev
 USER jenkins
