@@ -11,7 +11,7 @@ pipeline {
                 sh '''
                 echo "Building Docker image using docker file"
                 cat Dockerfile
-                sudo docker build -t assessment:latest .
+                docker build -t assessment:latest .
                 '''
             }
         }
