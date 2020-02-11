@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ('Repository checkout') {
             steps {
-                git 'https://github.com/bradtraversy/react_express_starter.git'
+                git 'https://github.com/dileepchebolu/react_express_starter.git'
             }
         }
         stage ('Building the dokcer image') {
